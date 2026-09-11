@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" fill="none">
+  <defs>
+    <radialGradient id="petal" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(196 158) rotate(80) scale(92 72)">
+      <stop stop-color="#EDE2FF" stop-opacity=".96"/><stop offset=".58" stop-color="#A98BCB" stop-opacity=".78"/><stop offset="1" stop-color="#76539A" stop-opacity=".18"/>
+    </radialGradient>
+    <radialGradient id="blue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(110 252) rotate(65) scale(86 68)">
+      <stop stop-color="#E8F0FF"/><stop offset=".62" stop-color="#9DB2D8" stop-opacity=".74"/><stop offset="1" stop-color="#7890BB" stop-opacity=".18"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="44" y1="80" x2="270" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#88A27B"/><stop offset="1" stop-color="#516B55" stop-opacity=".55"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="1.4"/></filter>
+  </defs>
+  <g opacity=".96">
+    <path d="M0 14C94 26 132 70 168 128" stroke="#A88861" stroke-width="2.2" stroke-linecap="round" opacity=".55"/>
+    <path d="M32 0C75 82 121 103 208 128" stroke="#6F825C" stroke-width="2.6" stroke-linecap="round" opacity=".55"/>
+    <path d="M88 23C120 75 153 100 224 115" stroke="#8CA06A" stroke-width="2" opacity=".5"/>
+    <g transform="translate(152 124)">
+      <ellipse rx="42" ry="24" transform="rotate(-18) translate(-31 0)" fill="url(#petal)"/>
+      <ellipse rx="42" ry="24" transform="rotate(35) translate(24 -16)" fill="url(#petal)"/>
+      <ellipse rx="42" ry="24" transform="rotate(92) translate(24 -8)" fill="url(#petal)"/>
+      <ellipse rx="42" ry="24" transform="rotate(150) translate(14 -15)" fill="url(#petal)"/>
+      <ellipse rx="42" ry="24" transform="rotate(212) translate(22 -7)" fill="url(#petal)"/>
+      <circle r="15" fill="#6E4B8E" opacity=".86"/>
+      <circle r="5" fill="#D6B365"/>
+    </g>
+    <g transform="translate(76 236) scale(.78)">
+      <ellipse rx="44" ry="26" transform="rotate(-12) translate(-32 0)" fill="url(#blue)"/>
+      <ellipse rx="44" ry="26" transform="rotate(38) translate(26 -11)" fill="url(#blue)"/>
+      <ellipse rx="44" ry="26" transform="rotate(98) translate(22 -5)" fill="url(#blue)"/>
+      <ellipse rx="44" ry="26" transform="rotate(162) translate(18 -9)" fill="url(#blue)"/>
+      <ellipse rx="44" ry="26" transform="rotate(220) translate(26 -7)" fill="url(#blue)"/>
+      <circle r="14" fill="#6C7095"/><circle r="5" fill="#E2C47B"/>
+    </g>
+    <g fill="url(#leaf)" opacity=".72">
+      <ellipse cx="55" cy="95" rx="15" ry="37" transform="rotate(-34 55 95)"/>
+      <ellipse cx="96" cy="119" rx="12" ry="30" transform="rotate(42 96 119)"/>
+      <ellipse cx="112" cy="205" rx="13" ry="31" transform="rotate(-28 112 205)"/>
+      <ellipse cx="50" cy="188" rx="10" ry="27" transform="rotate(52 50 188)"/>
+      <ellipse cx="192" cy="84" rx="9" ry="24" transform="rotate(74 192 84)"/>
+    </g>
+    <g fill="#D9C6EC" opacity=".82" filter="url(#soft)">
+      <circle cx="122" cy="58" r="14"/><circle cx="135" cy="47" r="12"/><circle cx="145" cy="61" r="11"/>
+      <circle cx="216" cy="108" r="10"/><circle cx="230" cy="101" r="8"/><circle cx="234" cy="116" r="9"/>
+    </g>
+    <path d="M19 332C79 295 114 287 178 281" stroke="#C59F5B" stroke-width="1.6" opacity=".42"/>
+    <path d="M8 355C74 316 124 307 192 302" stroke="#D8B774" stroke-width="1.1" opacity=".35"/>
+  </g>
+</svg>
